@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.navbar {
+  background-color: black;
+  color: aliceblue;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  text-align: center;
+}
+
+.hero-selection {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.title {
+  font-size: 72px;
+  font-weight: bold;
+  color: #303030;
+}
+
+.trip {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ababab;
+}
+
+.hero-selection-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-selection-image {
+  width: 284px;
+  height: 400px;
+  border-radius: 12px;
+  margin-top: 80px;
+}
+.destination {
+  margin: auto;
+  margin-top: 240px;
+  max-width: 1200px;
+  display: flex;
+  gap: 150px;
+}
+.subtext {
+  width: bold;
+  font-size: 24px;
+  color: #ababab;
+}
+.title-lg {
+  width: bold;
+  font-size: 48px;
+  color: #303030;
+}
+.step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 80px;
+}
+.destination-subtext {
+  color: #777777;
+  font-size: 12px;
+}
+.step-day {
+  width: 56px;
+  height: 56px;
+  background-color: black;
+  color: #16a94a;
+  font-weight: bold;
+  font-size: 17px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-title-sm {
+  font-size: 16px;
+}
+.price {
+  margin-top: 240px;
+}
+.pricing-title {
+  text-align: center;
+  margin-top: 240px;
+}
+.title--sm {
+  font-size: 24px;
+  color: #ababab;
+  text-align: center;
+  margin-top: 240px;
+}
+.title--lg {
+  font-size: 48px;
+  text-align: center;
+}
+.pricing-cards {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  padding: 40px;
+  background-color: #ffff;
+  border-radius: 24px;
+  border: 2px solid transparent;
+  border-color: red;
+}
+.pricing-list {
+  margin-top: 28px;
+  color: #777777;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.title--mb {
+  font-size: 24px;
+}
+.pricing--price {
+  font-size: 32px;
+  color: #303030;
+  text-align: right;
+  margin-top: 20px;
+}
+.card :hover
+  border:{ 2px solid #16a94a;}
+
+@media screen and (min-width: 601px) and (max-width: 1028px) {
+  .title {
+    font-size: 48px;
+  }
+  .trip {
+    font-size: 18px;
+  }
+  .hero-selection-images {
+    flex-wrap: wrap;
+  }
+  .subtext {
+    text-align: center;
+    font-size: 18px;
+  }
+  .title-lg {
+    font-size: 36px;
+  }
+  .destination img {
+    display: none;
+  }
+  .destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+  }
+  .title-lg {
+    font-size: 56px;
+  }
+  .subtext {
+    font-size: 24px;
+  }
+  .step {
+    display: flex;
+    margin-top: 50px;
+  }
+}
